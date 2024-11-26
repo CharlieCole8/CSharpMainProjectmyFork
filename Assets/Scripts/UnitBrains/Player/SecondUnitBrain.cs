@@ -41,15 +41,13 @@ namespace UnitBrains.Player
             ///////////////////////////////////////
             List<Vector2Int> result = GetReachableTargets();
             
-            if (result.Count == 0)
-            {
-                return result;
-            }
+            
             var closestTarget = Vector2.zero;
             var closestDistance = float.MaxValue;
 
-            foreach (var target in result)
+            for (int i = 0; i < result.Count; i++)
             {
+                var target = result[i];
                 var distance = DistanceToOwnBase(target);
                 if (distance < closestDistance)
                 {
