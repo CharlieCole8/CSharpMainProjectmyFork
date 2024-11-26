@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{F2A23550-4A2E-930E-6676-9870593179DD}|Root.csproj|solutionrelative:assets\\scripts\\unitbrains\\player\\secondunitbrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2A23550-4A2E-930E-6676-9870593179DD}|Root.csproj|D:\\Alex\\Git.Fork\\CSharpMainProjectmyFork\\assets\\scripts\\enterpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A23550-4A2E-930E-6676-9870593179DD}|Root.csproj|solutionrelative:assets\\scripts\\enterpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2A23550-4A2E-930E-6676-9870593179DD}|Root.csproj|D:\\Alex\\Git.Fork\\CSharpMainProjectmyFork\\assets\\scripts\\model\\runtime\\projectiles\\archtotileprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A23550-4A2E-930E-6676-9870593179DD}|Root.csproj|solutionrelative:assets\\scripts\\model\\runtime\\projectiles\\archtotileprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2A23550-4A2E-930E-6676-9870593179DD}|Root.csproj|D:\\Alex\\Git.Fork\\CSharpMainProjectmyFork\\assets\\scripts\\unitbrains\\pathfinding\\debugpathoutput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2A23550-4A2E-930E-6676-9870593179DD}|Root.csproj|solutionrelative:assets\\scripts\\unitbrains\\pathfinding\\debugpathoutput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2A23550-4A2E-930E-6676-9870593179DD}|Root.csproj|D:\\Alex\\Git.Fork\\CSharpMainProjectmyFork\\assets\\scripts\\model\\runtime\\projectiles\\archtotileprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A23550-4A2E-930E-6676-9870593179DD}|Root.csproj|solutionrelative:assets\\scripts\\model\\runtime\\projectiles\\archtotileprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2A23550-4A2E-930E-6676-9870593179DD}|Root.csproj|D:\\Alex\\Git.Fork\\CSharpMainProjectmyFork\\assets\\scripts\\enterpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A23550-4A2E-930E-6676-9870593179DD}|Root.csproj|solutionrelative:assets\\scripts\\enterpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,13 +36,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\UnitBrains\\Pathfinding\\DebugPathOutput.cs",
               "ToolTip": "D:\\Alex\\Git.Fork\\CSharpMainProjectmyFork\\Assets\\Scripts\\UnitBrains\\Pathfinding\\DebugPathOutput.cs",
               "RelativeToolTip": "Assets\\Scripts\\UnitBrains\\Pathfinding\\DebugPathOutput.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwAoAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T12:33:50.95Z"
+              "WhenOpened": "2024-11-14T12:33:50.95Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "EnterPoint.cs",
               "DocumentMoniker": "D:\\Alex\\Git.Fork\\CSharpMainProjectmyFork\\Assets\\Scripts\\EnterPoint.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnterPoint.cs",
@@ -50,7 +51,8 @@
               "RelativeToolTip": "Assets\\Scripts\\EnterPoint.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T11:43:24.297Z"
+              "WhenOpened": "2024-11-14T11:43:24.297Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -60,22 +62,23 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\UnitBrains\\Player\\SecondUnitBrain.cs",
               "ToolTip": "D:\\Alex\\Git.Fork\\CSharpMainProjectmyFork\\Assets\\Scripts\\UnitBrains\\Player\\SecondUnitBrain.cs",
               "RelativeToolTip": "Assets\\Scripts\\UnitBrains\\Player\\SecondUnitBrain.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAqwB4AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAwCwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T11:09:09.195Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ArchToTileProjectile.cs",
               "DocumentMoniker": "D:\\Alex\\Git.Fork\\CSharpMainProjectmyFork\\Assets\\Scripts\\Model\\Runtime\\Projectiles\\ArchToTileProjectile.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Model\\Runtime\\Projectiles\\ArchToTileProjectile.cs",
               "ToolTip": "D:\\Alex\\Git.Fork\\CSharpMainProjectmyFork\\Assets\\Scripts\\Model\\Runtime\\Projectiles\\ArchToTileProjectile.cs",
               "RelativeToolTip": "Assets\\Scripts\\Model\\Runtime\\Projectiles\\ArchToTileProjectile.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAA1wBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T09:33:52.039Z"
+              "WhenOpened": "2024-11-12T09:33:52.039Z",
+              "EditorCaption": ""
             }
           ]
         }
