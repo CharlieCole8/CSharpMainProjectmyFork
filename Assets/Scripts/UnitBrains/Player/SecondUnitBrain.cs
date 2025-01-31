@@ -1,6 +1,10 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
+using Model;
 using Model.Runtime.Projectiles;
 using UnityEngine;
+using Utilities;
+using static UnityEngine.GraphicsBuffer;
 
 namespace UnitBrains.Player
 {
@@ -12,7 +16,8 @@ namespace UnitBrains.Player
         private float _temperature = 0f;
         private float _cooldownTime = 0f;
         private bool _overheated;
-        
+        public List<Vector2Int> UnreachableTargets = new List<Vector2Int>();//Создаю список целей вне досягаемости
+
         protected override void GenerateProjectiles(Vector2Int forTarget, List<BaseProjectile> intoList)
         {
             float overheatTemperature = OverheatTemperature;
@@ -33,38 +38,79 @@ namespace UnitBrains.Player
 
         public override Vector2Int GetNextStep()
         {
-            return base.GetNextStep();
+            Vector2Int target = UnreachableTargets[0];
+            Vector2Int nextPosition = Vector2Int.right;
+            //if (UnreachableTargets.Count > 0 && !IsTargetInRange(target))
+            //{
+            //    return unit.Pos.CalcNextStepTowards(target);
+            //}
+
+            //else
+            //{
+            //    return unit.Pos;
+            //}
+            if (UnreachableTargets.Count > 0)
+            {
+                Vector2Int targets = UnreachableTargets[0];
+                if (!IsTargetInRange(targets))
+                {
+                    return unit.Pos.CalcNextStepTowards(targets);
+                }
+                else
+                {
+                    UnreachableTargets.RemoveAt(0); // Удаляем достигнутую цель
+                }
+            }
+            return unit.Pos;
         }
 
         protected override List<Vector2Int> SelectTargets()
         {
             ///////////////////////////////////////
-            List<Vector2Int> result = GetReachableTargets();
-            
-            
-            var closestTarget = Vector2.zero;
+            List<Vector2Int> allTargets = GetAllTargets().ToList();//
+            List<Vector2Int> result = new List<Vector2Int>();
+
+            var closestTarget = Vector2Int.zero;
             var closestDistance = float.MaxValue;
 
-            for (int i = 0; i < result.Count; i++)
+            if (allTargets.Count > 0)
             {
-                var target = result[i];
-                var distance = DistanceToOwnBase(target);
-                if (distance < closestDistance)
+                foreach (var enemy in allTargets)//
                 {
-                    closestDistance = distance;
-                    closestTarget = target;
+                    float distance = DistanceToOwnBase(enemy);
+                    if (distance < closestDistance)
+                    {
+                        closestDistance = distance;
+                        closestTarget = enemy;
+                    }
+
                 }
-                result.Clear();
-                result.Add(target);
-            }
-            
-            while (result.Count > 1)
-            {
-                result.RemoveAt(result.Count - 1);
+                //
+                if (IsTargetInRange(closestTarget))
+                {
+                    result.Add(closestTarget);
+                    UnreachableTargets.Clear();
+                }
+                else
+                {
+                    UnreachableTargets.Add(closestTarget);
+                }
+
+
+                var target = runtimeModel.RoMap.Bases[IsPlayerUnitBrain ? RuntimeModel.BotPlayerId : RuntimeModel.PlayerId];
+                    if (IsTargetInRange(target))
+                    {
+                        result.Add(target);
+                        return result;
+                    }
+
+                    UnreachableTargets.Add(target);
+                    return result; 
             }
             return result;
-            ///////////////////////////////////////
         }
+            /////////////////////////////////////////
+        
 
         public override void Update(float deltaTime, float time)
         {
