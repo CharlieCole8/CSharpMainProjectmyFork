@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{F2A23550-4A2E-930E-6676-9870593179DD}|Root.csproj|solutionrelative:assets\\scripts\\unitbrains\\player\\secondunitbrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2A23550-4A2E-930E-6676-9870593179DD}|Root.csproj|d:\\alex\\git.fork\\csharpmainprojectmyfork\\assets\\scripts\\unitbrains\\baseunitbrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F2A23550-4A2E-930E-6676-9870593179DD}|Root.csproj|D:\\Alex\\Git.Fork\\CSharpMainProjectmyFork\\assets\\scripts\\unitbrains\\baseunitbrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2A23550-4A2E-930E-6676-9870593179DD}|Root.csproj|solutionrelative:assets\\scripts\\unitbrains\\baseunitbrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -40,10 +40,9 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\UnitBrains\\BaseUnitBrain.cs",
               "ToolTip": "D:\\Alex\\Git.Fork\\CSharpMainProjectmyFork\\Assets\\Scripts\\UnitBrains\\BaseUnitBrain.cs",
               "RelativeToolTip": "Assets\\Scripts\\UnitBrains\\BaseUnitBrain.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAmwIgAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAmwJAAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T08:14:33.711Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-31T08:14:33.711Z"
             },
             {
               "$type": "Document",
@@ -77,7 +76,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\UnitBrains\\Player\\SecondUnitBrain.cs",
               "ToolTip": "D:\\Alex\\Git.Fork\\CSharpMainProjectmyFork\\Assets\\Scripts\\UnitBrains\\Player\\SecondUnitBrain.cs",
               "RelativeToolTip": "Assets\\Scripts\\UnitBrains\\Player\\SecondUnitBrain.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAIwDgAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwEMAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T11:09:09.195Z",
               "EditorCaption": ""
